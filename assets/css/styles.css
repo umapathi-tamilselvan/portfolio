@@ -49,11 +49,16 @@ nav {
 }
 .hero-avatar {
   flex-shrink: 0;
-  width: 130px; height: 130px; border-radius: 50%;
-  background: var(--accent);
-  display: flex; align-items: center; justify-content: center;
-  font-size: 3rem; font-weight: 700; color: #fff;
-  border: 4px solid rgba(255,255,255,.2);
+  width: 150px; height: 150px; border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid rgba(255,255,255,.25);
+  box-shadow: 0 0 0 6px rgba(255,255,255,.08);
+}
+.hero-avatar img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
 }
 .hero-content h1 { font-size: 2.6rem; font-weight: 700; letter-spacing: -.5px; }
 .hero-content .subtitle {
