@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Umapathi T — Software Engineer</title>
-  <meta name="description" content="Umapathi T — Software Engineer specializing in Laravel, PHP, payment gateway integration, and fintech backend systems." />
-  <meta name="keywords" content="Umapathi T, Laravel Developer, PHP Developer, Software Engineer, Dharmapuri, Fintech" />
+  <title>Umapathi T — Laravel Developer</title>
+  <meta name="description" content="Umapathi T — Laravel Developer with 2+ years building fintech systems: payment gateways, court case automation, AI document pipelines, and commission engines." />
+  <meta name="keywords" content="Umapathi T, Laravel Developer, PHP Developer, Software Engineer, Dharmapuri, Fintech, Worldline, Vertex AI" />
   <meta name="author" content="Umapathi T" />
   <!-- Google Search Console verification — replace content value with your actual token -->
   <meta name="google-site-verification" content="yv-F58yCn_t4dN8dzLkmW7O0ee8I07b0Ora25CFXvME" />
-  <meta property="og:title" content="Umapathi T — Software Engineer" />
-  <meta property="og:description" content="Backend developer with 1.5+ years building fintech systems with Laravel, MySQL, and Google Cloud." />
+  <meta property="og:title" content="Umapathi T — Laravel Developer" />
+  <meta property="og:description" content="Laravel developer with 2+ years building fintech systems: payment gateways, AI document pipelines, court case automation, and commission engines." />
   <meta property="og:type" content="website" />
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
@@ -35,11 +35,11 @@
   </div>
   <div class="hero-content">
     <h1>Umapathi T.</h1>
-    <div class="subtitle">Software Engineer</div>
+    <div class="subtitle">Laravel Developer</div>
     <p>
-      Backend developer with 1.5+ years building production-grade fintech systems.
-      Delivered 65+ merged PRs on a live chit fund ERP — spanning payment gateway
-      integration, court case automation, AI document pipelines, and commission engines.
+      Backend developer with 2+ years building production-grade fintech systems.
+      Delivered 69+ merged PRs across chit fund and matrimony platforms — spanning payment gateway
+      integration, eCourt case automation, AI-powered KYC document pipelines, and commission engines.
     </p>
     <div class="hero-badges">
       <span class="badge">PHP &amp; Laravel</span>
@@ -80,7 +80,7 @@
       <li><span class="info-icon">&#x1F4E7;</span><div><strong>Email:</strong>&nbsp; umapathi.tamilselvan@gmail.com</div></li>
       <li><span class="info-icon">&#x1F4DE;</span><div><strong>Phone:</strong>&nbsp; +91 97891 31709</div></li>
       <li><span class="info-icon">&#x1F393;</span><div><strong>Degree:</strong>&nbsp; B.E. — Electrical &amp; Electronics Engineering</div></li>
-      <li><span class="info-icon">&#x1F4BC;</span><div><strong>Experience:</strong>&nbsp; 1.5+ Years</div></li>
+      <li><span class="info-icon">&#x1F4BC;</span><div><strong>Experience:</strong>&nbsp; 2+ Years</div></li>
       <li><span class="info-icon">&#x1F310;</span><div><strong>LinkedIn:</strong>&nbsp; linkedin.com/in/umapathi-dev-</div></li>
     </ul>
   </div>
@@ -197,7 +197,7 @@
         <div class="meta">
           <span>&#x1F4C5; May 2024 — Present</span>
           <span>&#x1F4CD; Dharmapuri</span>
-          <span>&#x2705; 65+ PRs Merged</span>
+          <span>&#x2705; 69+ PRs Merged</span>
         </div>
         <ul>
           <li>Engineered full Worldline payment gateway: dual-callback (browser + S2S), SHA512 hash verification, and auto-reconciliation job every 30 minutes with distributed locking.</li>
@@ -260,7 +260,7 @@
       <h3>eCourts Court Case Automation</h3>
       <div class="period">&#x1F4C5; Jun 2025 – Apr 2026 &nbsp;|&nbsp; Rosca Digital</div>
       <ul>
-        <li>Built HTTP crawler with CAPTCHA solving and Scrape.do proxy; raw HTML stored to Google Cloud Storage.</li>
+        <li>Built HTTP crawler with CAPTCHA solving and Scrape.do proxy; raw HTML stored to Google Cloud Storage — managing 675+ active cases.</li>
         <li>Developed DOMXPath parser extracting 20+ fields: parties, hearing history, acts, disposal status, judge names.</li>
         <li>Designed two-phase async pipeline with exponential backoff [60s, 120s, 1200s]; polymorphic links to Subscriber, Guarantor, Enrollment.</li>
         <li>Implemented smart daily scheduler that skips disposed/future-hearing cases to save API credits; posts Slack summary post-run.</li>
@@ -309,6 +309,43 @@
         <span class="tag">Bilingual</span>
         <span class="tag">Maatwebsite Excel</span>
         <span class="tag">Laravel</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="proj-tag">Agent &bull; Commission &bull; Full Feature</div>
+      <h3>Agent 360 Module</h3>
+      <div class="period">&#x1F4C5; 2026 &nbsp;|&nbsp; Rosca Digital</div>
+      <ul>
+        <li>Built sub-agent (DO) hierarchy — agents can now have managing agents with a dedicated FK relationship and role flag.</li>
+        <li>Developed 360° agent ledger view with sticky header, enrollment stats (Prized, Non-Prized, TBC, FL), and sub-agent tab.</li>
+        <li>Implemented cluster-specific commission configuration across 3 regional clusters (Chennai, Krishnagiri, Salem).</li>
+        <li>DO commission rules: 0.2% per ticket if managing party is an agent; 0.1% if managing party is an employee.</li>
+      </ul>
+      <div class="project-tech">
+        <span class="tag">Laravel</span>
+        <span class="tag">Vue.js</span>
+        <span class="tag">MySQL</span>
+        <span class="tag">RBAC</span>
+        <span class="tag">Commission Engine</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="proj-tag">Matrimony &bull; Mobile &bull; Pre-release</div>
+      <h3>Dream Alliance — Matrimony Platform</h3>
+      <div class="period">&#x1F4C5; May 2026 &nbsp;|&nbsp; Curious Tech</div>
+      <ul>
+        <li>Stabilized Laravel backend and Flutter mobile app (iOS &amp; Android) prior to production release.</li>
+        <li>Fixed cross-platform issues — DOB/birth time display, expired subscription logic, profile share SMS.</li>
+        <li>Resolved Xcode Cloud CI pipeline failures blocking the iOS release build.</li>
+      </ul>
+      <div class="project-tech">
+        <span class="tag">Laravel</span>
+        <span class="tag">OpenSearch</span>
+        <span class="tag">Flutter</span>
+        <span class="tag">iOS</span>
+        <span class="tag">Android</span>
       </div>
     </div>
 
