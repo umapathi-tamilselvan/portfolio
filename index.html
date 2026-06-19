@@ -24,6 +24,7 @@
     <li><a href="#skills">Skills</a></li>
     <li><a href="#experience">Experience</a></li>
     <li><a href="#projects">Projects</a></li>
+    <li><a href="#highlights">Highlights</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
@@ -349,6 +350,204 @@
       </div>
     </div>
 
+  </div>
+</section>
+
+<!-- WORK HIGHLIGHTS -->
+<section id="highlights">
+  <span class="section-label">Recent Impact</span>
+  <h2>Work Highlights</h2>
+  <div class="section-divider"></div>
+
+  <!-- Dream Alliance Matrimony -->
+  <div class="highlight-group">
+    <div class="highlight-group-head">
+      <h3 class="highlight-group-title">Dream Alliance Matrimony</h3>
+      <span class="highlight-group-meta">Laravel &bull; Vue.js &bull; Flutter &bull; AWS ECS</span>
+    </div>
+    <div class="highlights-grid">
+
+      <div class="highlight-card">
+        <div class="highlight-card-top">
+          <h4>AWS SES Email Service Recovery</h4>
+          <span class="metric-pill">12% &rarr; &lt;5% bounce</span>
+        </div>
+        <p>Production email was suspended by AWS SES after bounce rates crossed the safety threshold &mdash; halting registrations and password resets. Diagnosed invalid addresses entering the pipeline, added code-level validation, and restored full mail uptime within 24 hours.</p>
+        <div class="project-tech">
+          <span class="tag">AWS SES</span>
+          <span class="tag">Laravel</span>
+          <span class="tag">Debugging</span>
+        </div>
+      </div>
+
+      <div class="highlight-card">
+        <div class="highlight-card-top">
+          <h4>Complete Staging Environment</h4>
+          <span class="metric-pill">Production parity</span>
+        </div>
+        <p>Built a production-parity staging environment from scratch on Laravel Forge &mdash; server provisioning, Supervisor queue workers, Redis caching, OpenSearch connectivity, and multi-subdomain routing &mdash; enabling safe pre-release validation.</p>
+        <div class="project-tech">
+          <span class="tag">Laravel Forge</span>
+          <span class="tag">Redis</span>
+          <span class="tag">OpenSearch</span>
+          <span class="tag">Nginx</span>
+        </div>
+      </div>
+
+      <div class="highlight-card">
+        <div class="highlight-card-top">
+          <h4>Mid-Tier Subscription Plan</h4>
+          <span class="metric-pill">New revenue tier</span>
+        </div>
+        <p>Introduced a new &#8377;1,999 tier to fill the pricing gap between the free and premium plans. Full backend build: plan configuration, payment gateway integration, feature entitlement mapping, and billing cycle management.</p>
+        <div class="project-tech">
+          <span class="tag">Payment Gateway</span>
+          <span class="tag">Subscription Logic</span>
+          <span class="tag">Laravel</span>
+        </div>
+      </div>
+
+      <div class="highlight-card">
+        <div class="highlight-card-top">
+          <h4>Phone Number Rate-Limiting</h4>
+          <span class="metric-pill">5 views / day</span>
+        </div>
+        <p>Designed per-user rate limiting capping phone number views at 5/day on the free tier, with configurable quotas &mdash; creating a clear upgrade incentive while protecting member privacy.</p>
+        <div class="project-tech">
+          <span class="tag">Rate Limiting</span>
+          <span class="tag">System Design</span>
+        </div>
+      </div>
+
+      <div class="highlight-card">
+        <div class="highlight-card-top">
+          <h4>Dynamic Login Popup Banner</h4>
+          <span class="metric-pill">Full-stack</span>
+        </div>
+        <p>Built a full-stack banner system: backend content scheduling and targeting paired with a Vue.js modal and dismissal-state handling, letting marketing run time-sensitive campaigns without a code deploy.</p>
+        <div class="project-tech">
+          <span class="tag">Vue.js</span>
+          <span class="tag">Laravel</span>
+        </div>
+      </div>
+
+      <div class="highlight-card">
+        <div class="highlight-card-top">
+          <h4>Flutter Mobile CI/CD</h4>
+          <span class="metric-pill">iOS + Android</span>
+        </div>
+        <p>Set up the complete Flutter build and publishing pipeline for both stores &mdash; resolved 3.29.3 version pinning, configured Xcode Cloud CI with a custom post-clone script, and published v0.0.4 to iOS (175 countries) and Android (177 countries).</p>
+        <div class="project-tech">
+          <span class="tag">Flutter</span>
+          <span class="tag">Xcode Cloud</span>
+          <span class="tag">Google Play</span>
+          <span class="tag">CI/CD</span>
+        </div>
+      </div>
+
+      <div class="highlight-card">
+        <div class="highlight-card-top">
+          <h4>Multi-Platform Bug Fix Sprint</h4>
+          <span class="metric-pill">Cross-platform</span>
+        </div>
+        <p>Resolved critical production issues across iOS, web, and admin portal: fixed the broken Starter Pro purchase flow on iOS, corrected the admin premium-user filter, configured DOB visibility by tier, and added family-section validation.</p>
+        <div class="project-tech">
+          <span class="tag">Flutter iOS</span>
+          <span class="tag">Vue.js</span>
+          <span class="tag">Laravel</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Rosca Digital CRM -->
+  <div class="highlight-group">
+    <div class="highlight-group-head">
+      <h3 class="highlight-group-title">Rosca Digital CRM</h3>
+      <span class="highlight-group-meta">Laravel &bull; Vue.js &bull; Chit Fund ERP</span>
+    </div>
+    <div class="highlights-grid">
+
+      <div class="highlight-card">
+        <div class="highlight-card-top">
+          <h4>Lead Management CRUD</h4>
+          <span class="metric-pill">Built from scratch</span>
+        </div>
+        <p>Built the core lead module from scratch &mdash; full CRUD with filtering and pagination, interaction history, and auto-incrementing lead numbers for audit trails. Added a new MARKETING_STAFF role so branch staff manage leads without admin access.</p>
+        <div class="project-tech">
+          <span class="tag">Laravel</span>
+          <span class="tag">Vue.js</span>
+          <span class="tag">RBAC</span>
+        </div>
+      </div>
+
+      <div class="highlight-card">
+        <div class="highlight-card-top">
+          <h4>CSV Import Wizard</h4>
+          <span class="metric-pill">~80% time saved</span>
+        </div>
+        <p>Built a multi-step import wizard with intelligent auto column detection that maps file headers to system fields with no manual setup. Duplicate detection and progress tracking cut bulk lead onboarding time by an estimated 80%.</p>
+        <div class="project-tech">
+          <span class="tag">CSV Parsing</span>
+          <span class="tag">Vue.js</span>
+          <span class="tag">Laravel</span>
+        </div>
+      </div>
+
+      <div class="highlight-card">
+        <div class="highlight-card-top">
+          <h4>CRM Reporting Suite</h4>
+          <span class="metric-pill">Real-time analytics</span>
+        </div>
+        <p>Designed a multi-dimensional reporting system with branch-wise and employee-wise views across lead volume, productivity, and conversion funnels &mdash; real-time aggregation with drill-down for leadership visibility.</p>
+        <div class="project-tech">
+          <span class="tag">Reporting</span>
+          <span class="tag">Analytics</span>
+          <span class="tag">Laravel</span>
+        </div>
+      </div>
+
+      <div class="highlight-card">
+        <div class="highlight-card-top">
+          <h4>Automated Compliance PDFs (Form 17)</h4>
+          <span class="metric-pill">15 min &rarr; 5 sec</span>
+        </div>
+        <p>Automated two documents required by the Tamil Nadu Chit Fund Rules 1984 &mdash; Enrollment Auction Minutes and Form 17 &mdash; cutting generation from 15+ minutes to under 5 seconds per group with 100% consistency.</p>
+        <div class="project-tech">
+          <span class="tag">PDF Generation</span>
+          <span class="tag">Compliance</span>
+          <span class="tag">Laravel</span>
+        </div>
+      </div>
+
+      <div class="highlight-card">
+        <div class="highlight-card-top">
+          <h4>Partial Payment Settlement Engine</h4>
+          <span class="metric-pill">Reconciliation-safe</span>
+        </div>
+        <p>Built a flexible partial-payment system allocating funds across multiple charges in chronological order. Fixed a critical bug where re-adding charges mutated original timestamps and corrupted reconciliation, using immutable charge-date tracking.</p>
+        <div class="project-tech">
+          <span class="tag">Financial Logic</span>
+          <span class="tag">Debugging</span>
+          <span class="tag">Laravel</span>
+        </div>
+      </div>
+
+      <div class="highlight-card">
+        <div class="highlight-card-top">
+          <h4>Income Evidence Scoring Architecture</h4>
+          <span class="metric-pill">Foundation layer</span>
+        </div>
+        <p>Architected the foundation of an Income Evidence Scoring module within Rosca's Document Intelligence system &mdash; classification data models, a configurable-threshold scoring framework, and integration points for salary slips, bank statements, and tax returns.</p>
+        <div class="project-tech">
+          <span class="tag">System Architecture</span>
+          <span class="tag">Laravel</span>
+          <span class="tag">Technical Docs</span>
+        </div>
+      </div>
+
+    </div>
   </div>
 </section>
 
