@@ -65,6 +65,10 @@ nav {
   font-size: 1.15rem; color: #93c5fd; margin: .4rem 0 1rem;
 }
 .hero-content p { color: #cbd5e1; max-width: 640px; font-size: .97rem; line-height: 1.7; }
+.hero-content .hero-lead {
+  color: #fff; font-weight: 600; font-size: 1.18rem;
+  line-height: 1.5; max-width: 640px; margin-bottom: .55rem;
+}
 .hero-badges { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.2rem; }
 .badge {
   background: rgba(255,255,255,.1);
@@ -230,6 +234,12 @@ h2 {
 }
 .highlight-card p { font-size: .88rem; color: #475569; line-height: 1.65; }
 .highlight-card .project-tech { margin-top: 1rem; }
+.highlight-card .outcome {
+  display: flex; gap: .45rem; align-items: baseline;
+  margin-top: .9rem;
+  font-size: .9rem; font-weight: 600; color: var(--accent); line-height: 1.5;
+}
+.highlight-card .outcome::before { content: '\2713'; font-weight: 700; flex-shrink: 0; }
 
 /* Pin Contact to the light bg so inserting the Highlights section above it
    doesn't flip its background via section:nth-child(even). */
